@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C0E18F16-FC2E-496D-B2F7-71B44B1E8E8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DB2149AE-9B3D-43D2-A4D5-C166796BB634}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CB9CAE69-4743-47FC-84DB-3D2E2C008401}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AFA42F5A-82FB-4226-9A1D-F1586190451D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{F9CAAA08-6A36-41D0-B01D-10849EE5810B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{AFE7E48B-F903-47BF-AF92-F48AF2ED8089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Application", "AgileManagementSystem.Application\AgileManagementSystem.Application.csproj", "{711ED6AF-2545-446A-8850-71C0D8C5BC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Core", "AgileManagementSystem.Core\AgileManagementSystem.Core.csproj", "{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Domain", "AgileManagementSystem.Domain\AgileManagementSystem.Domain.csproj", "{4E0BB144-B43D-4768-864D-CFAD9E095D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Infrastructure", "AgileManagementSystem.Infrastructure\AgileManagementSystem.Infrastructure.csproj", "{73B397F0-CF56-4A30-A68B-B3A42A17F5B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Persistence", "AgileManagementSystem.Persistence\AgileManagementSystem.Persistence.csproj", "{72C20F92-D1DE-408F-B675-509D0A93A335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileManagementSystem.Presentation", "AgileManagementSystem.Presentation\AgileManagementSystem.Presentation.csproj", "{C341E455-F4EB-4596-846A-92C3A5393C03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{711ED6AF-2545-446A-8850-71C0D8C5BC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711ED6AF-2545-446A-8850-71C0D8C5BC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711ED6AF-2545-446A-8850-71C0D8C5BC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711ED6AF-2545-446A-8850-71C0D8C5BC77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0BB144-B43D-4768-864D-CFAD9E095D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0BB144-B43D-4768-864D-CFAD9E095D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0BB144-B43D-4768-864D-CFAD9E095D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0BB144-B43D-4768-864D-CFAD9E095D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B397F0-CF56-4A30-A68B-B3A42A17F5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B397F0-CF56-4A30-A68B-B3A42A17F5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B397F0-CF56-4A30-A68B-B3A42A17F5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B397F0-CF56-4A30-A68B-B3A42A17F5B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C20F92-D1DE-408F-B675-509D0A93A335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C20F92-D1DE-408F-B675-509D0A93A335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C20F92-D1DE-408F-B675-509D0A93A335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C20F92-D1DE-408F-B675-509D0A93A335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C341E455-F4EB-4596-846A-92C3A5393C03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C341E455-F4EB-4596-846A-92C3A5393C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C341E455-F4EB-4596-846A-92C3A5393C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C341E455-F4EB-4596-846A-92C3A5393C03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{711ED6AF-2545-446A-8850-71C0D8C5BC77} = {C0E18F16-FC2E-496D-B2F7-71B44B1E8E8D}
+		{B2C9B14B-AE31-4D7C-BAC8-C49758ABAE4C} = {DB2149AE-9B3D-43D2-A4D5-C166796BB634}
+		{4E0BB144-B43D-4768-864D-CFAD9E095D37} = {CB9CAE69-4743-47FC-84DB-3D2E2C008401}
+		{73B397F0-CF56-4A30-A68B-B3A42A17F5B4} = {AFA42F5A-82FB-4226-9A1D-F1586190451D}
+		{72C20F92-D1DE-408F-B675-509D0A93A335} = {F9CAAA08-6A36-41D0-B01D-10849EE5810B}
+		{C341E455-F4EB-4596-846A-92C3A5393C03} = {AFE7E48B-F903-47BF-AF92-F48AF2ED8089}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B8E13AF-5391-458F-967B-87F1F4DE46FF}
+	EndGlobalSection
+EndGlobal

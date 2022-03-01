@@ -1,0 +1,1 @@
+﻿Core katmanında; Diğer katmanlarda kullanılacak olan yapıların soyut (abstract) yapıları kurulacaktır.
