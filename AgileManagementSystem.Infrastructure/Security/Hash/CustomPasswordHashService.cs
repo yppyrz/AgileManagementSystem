@@ -1,0 +1,28 @@
+﻿using AgileManagementSystem.Core.Security;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AgileManagementSystem.Infrastructure.Security.Hash
+{
+    public class CustomPasswordHashService : IPasswordHasher
+    {
+        public string HashPassword(string password)
+        {
+            MD5CryptoServiceProvider md5 = new MD5CryptoServiceProvider();
+            byte[] arrays = Encoding.UTF8.GetBytes(password);
+            arrays = md5.ComputeHash(arrays);
+            StringBuilder sb = new StringBuilder();
+
+            foreach (byte ba in arrays)
+            {
+                sb.Append(ba.ToString("x2").ToLower());
+            }
+
+            return sb.ToString();
+        }
+    }
+}
